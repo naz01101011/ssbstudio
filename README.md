@@ -1,1 +1,1 @@
-# SSB-v4-studio
+# SSB Studio - content management

@@ -30,10 +30,10 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/naz01101011/SSB-v4',
+            value: 'https://github.com/naz01101011/ssbstudio',
             category: 'Code'
           },
-          { title: 'Frontend', value: 'https://SSB-v4.netlify.com', category: 'apps' }
+          { title: 'Frontend', value: 'http://ssb-web.s3-website.eu-central-1.amazonaws.com/', category: 'apps' }
         ]
       }
     },
