@@ -16,6 +16,12 @@ export default {
                   title: 'Sanity Studio',
                   name: 'SSB Studio',
                   apiId: '9857e5c0-4089-40d3-8493-1985bf3e7583'
+                },
+                {
+                  buildHookId: '5e5794c8da2f1331aba9764e',
+                  title: 'SSB Frontend',
+                  name: 'Stiri de Sibiu',
+                  apiId: 'b3fc12cb-83c0-4ce4-9361-cf5132493104'
                 }
               ]
             }
