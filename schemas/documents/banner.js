@@ -13,19 +13,20 @@ export default {
         name: 'isWide',
         type: 'boolean',
         title: 'Banner Type',
-        validation: Rule => Rule.error('Trebuie sa imi spui tipul bannerului!').required(),
         description: 'Activeaza daca bannerul este Wide sau <pe lat>. Daca lasi butonul dezactivat, inseamna ca bannerul este Tall sau <pe inalt> (Bannerele patrate sunt tot de tipul Tall).'
       },
       {
         name: 'bannerimg',
         type: 'image',
         name: 'BannerImg',
+        // validation: Rule => Rule.error('Trebuie sa imi dai poza bannerului!').required(),
         description: 'Imaginea folosita ca banner.'
       },
       {
         name: 'url',
         type: 'url',
         title: 'Banner Link',
+        // validation: Rule => Rule.error('Trebuie sa dai linkul bannerului!').required(),
         description: 'Linkul deschis atunci cand bannerul este click-uit.'
       }
     ]
