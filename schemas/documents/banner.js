@@ -12,8 +12,8 @@ export default {
       {
         name: 'isWide',
         type: 'boolean',
-        title: 'Banner Type',
-        description: 'Activeaza daca bannerul este Wide sau <pe lat>. Daca lasi butonul dezactivat, inseamna ca bannerul este Tall sau <pe inalt> (Bannerele patrate sunt tot de tipul Tall).'
+        title: 'E banner orizontal?',
+        description: 'Activeaza daca bannerul este orizontal. Daca lasi butonul dezactivat, inseamna ca bannerul este vertical (bannerele patrate sunt tot de tipul vertical).'
       },
       {
         name: 'bannerimg',
