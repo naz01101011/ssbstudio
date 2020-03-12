@@ -16,9 +16,9 @@ export default {
         description: 'Activeaza daca bannerul este orizontal. Daca lasi butonul dezactivat, inseamna ca bannerul este vertical (bannerele patrate sunt tot de tipul vertical).'
       },
       {
-        name: 'bannerimg',
         type: 'image',
-        name: 'BannerImg',
+        name: 'bannerImg',
+        title: 'Banner Image',
         // validation: Rule => Rule.error('Trebuie sa imi dai poza bannerului!').required(),
         description: 'Imaginea folosita ca banner.'
       },
