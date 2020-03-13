@@ -10,10 +10,17 @@ export default {
         description: 'Titlul ajuta la organizarea si identificarea bannerelor in Studio.'
       },
       {
-        name: 'isWide',
-        type: 'boolean',
-        title: 'E banner orizontal?',
-        description: 'Activeaza daca bannerul este orizontal. Daca lasi butonul dezactivat, inseamna ca bannerul este vertical (bannerele patrate sunt tot de tipul vertical).'
+        title: 'Type and Position',
+        name: 'positionSet',
+        type: 'array',
+        of: [{type: 'string'}],
+        options: {
+          list: [
+            {title: 'Mid Lat', value: 'mid-leaderboard'},
+            {title: 'Mid Inalt', value: 'tall'},
+          ]
+        },
+        validation: Rule => Rule.required().max(1).error('Trebuie selectata o pozitie pentru banner!')
       },
       {
         type: 'image',
