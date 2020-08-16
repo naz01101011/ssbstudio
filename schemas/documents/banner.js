@@ -20,7 +20,7 @@ export default {
             {title: 'Mare Mijloc', value: 'large-mid-leaderboard'},
             {title: 'Mare Jos', value: 'large-bot-leaderboard'},
             {title: 'Mediu Mijloc', value: 'mid-leaderboard'},
-            {title: 'Patrat/Inalt', value: 'rectangle'},``
+            {title: 'Patrat/Inalt', value: 'rectangle'}
           ]
         },
         validation: Rule => Rule.required().max(1).error('Trebuie selectata o pozitie pentru banner!')
