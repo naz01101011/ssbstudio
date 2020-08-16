@@ -10,14 +10,17 @@ export default {
         description: 'Titlul ajuta la organizarea si identificarea bannerelor in Studio.'
       },
       {
-        title: 'Type and Position',
+        title: 'Tipul bannerului',
         name: 'positionSet',
         type: 'array',
         of: [{type: 'string'}],
         options: {
           list: [
-            {title: 'Mid Lat', value: 'mid-leaderboard'},
-            {title: 'Mid Inalt', value: 'tall'},
+            {title: 'Mare Sus', value: 'large-top-leaderboard'},
+            {title: 'Mare Mijloc', value: 'large-mid-leaderboard'},
+            {title: 'Mare Jos', value: 'large-bot-leaderboard'},
+            {title: 'Mediu Mijloc', value: 'mid-leaderboard'},
+            {title: 'Patrat/Inalt', value: 'rectangle'},``
           ]
         },
         validation: Rule => Rule.required().max(1).error('Trebuie selectata o pozitie pentru banner!')
