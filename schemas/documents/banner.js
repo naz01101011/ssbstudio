@@ -6,7 +6,7 @@ export default {
       {
         name: 'title',
         type: 'string',
-        title: 'Title',
+        title: 'Titlul bannerului',
         description: 'Titlul ajuta la organizarea si identificarea bannerelor in Studio.'
       },
       {
@@ -28,14 +28,14 @@ export default {
       {
         type: 'image',
         name: 'bannerImg',
-        title: 'Banner Image',
+        title: 'Imagine',
         // validation: Rule => Rule.error('Trebuie sa imi dai poza bannerului!').required(),
         description: 'Imaginea folosita ca banner.'
       },
       {
         name: 'url',
         type: 'url',
-        title: 'Banner Link',
+        title: 'Linkul bannerului',
         // validation: Rule => Rule.error('Trebuie sa dai linkul bannerului!').required(),
         description: 'Linkul deschis atunci cand bannerul este click-uit.'
       }
