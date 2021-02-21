@@ -1,18 +1,18 @@
 export default {
   name: 'author',
   type: 'document',
-  title: 'Author',
+  title: 'Autor',
   fields: [
     {
       name: 'name',
       type: 'string',
-      title: 'Name'
+      title: 'Nume'
     },
     {
       name: 'slug',
       type: 'slug',
-      title: 'Slug',
-      description: 'Some frontends will require a slug to be set to be able to show the person',
+      title: 'Nume tehnic',
+      description: 'Numele tehnic e necesar in cod',
       options: {
         source: 'name',
         maxLength: 96
@@ -21,12 +21,12 @@ export default {
     {
       name: 'image',
       type: 'mainImage',
-      title: 'Image'
+      title: 'Poza'
     },
     {
       name: 'bio',
       type: 'bioPortableText',
-      title: 'Biography'
+      title: 'Biografie'
     }
   ],
   preview: {

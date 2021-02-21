@@ -1,25 +1,25 @@
 export default {
   name: 'siteSettings',
   type: 'document',
-  title: 'Site Settings',
+  title: 'Setari',
   __experimental_actions: ['update', /* 'create', 'delete', */ 'publish'],
   fields: [
     {
       name: 'title',
       type: 'string',
-      title: 'Title'
+      title: 'Numele site-ului'
     },
     {
       name: 'description',
       type: 'text',
-      title: 'Description',
-      description: 'Describe your blog for search engines and social media.'
+      title: 'Descriere',
+      description: 'Descrierea site-ului'
     },
     {
       name: 'keywords',
       type: 'array',
-      title: 'Keywords',
-      description: 'Add keywords that describes your blog.',
+      title: 'Cuvinte cheie',
+      description: 'Cuvinte cheie care descri site-ul, necesare pentru SEO',
       of: [{type: 'string'}],
       options: {
         layout: 'tags'
@@ -28,8 +28,8 @@ export default {
     {
       name: 'author',
       type: 'reference',
-      description: 'Publish an author and set a reference to them here.',
-      title: 'Author',
+      description: 'Autorul principal',
+      title: 'Autor',
       to: [{type: 'author'}]
     }
   ]

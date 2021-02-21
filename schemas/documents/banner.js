@@ -1,7 +1,7 @@
 export default {
     name: 'banner',
     type: 'document',
-    title: 'Banners',
+    title: 'Banner',
     fields: [
       {
         name: 'title',
