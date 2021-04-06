@@ -34,6 +34,12 @@ export default {
             description: 'Daca optiunea e activata, articolul ramane in pozitia de sus-dreapta pana la dezactivarea optiunii'
         },
         {
+            name: 'advert',
+            type: 'boolean',
+            title: 'Advertorial',
+            description: 'Daca optiunea e activata, articolul este tratat ca si publicitate si marcat corespunzator'
+        },
+        {
             name: 'mainImage',
             type: 'mainImage',
             title: 'Imaginea principala a articolului'
