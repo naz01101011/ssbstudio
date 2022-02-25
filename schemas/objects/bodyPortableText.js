@@ -54,6 +54,9 @@ export default {
     },
     {
       type: 'youtube'
+    },
+    {
+      type: 'fbvideo'
     }
   ]
 }

@@ -18,6 +18,7 @@ import excerptPortableText from './objects/excerptPortableText'
 import mainImage from './objects/mainImage'
 import authorReference from './objects/authorReference'
 import youtube from './objects/youtube'
+import fbvideo from './objects/fbvideo'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -38,8 +39,8 @@ export default createSchema({
     bioPortableText,
     excerptPortableText,
     banner,
-    youtube
-
+    youtube,
+    fbvideo
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
   ])
