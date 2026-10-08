@@ -43,7 +43,7 @@ export default {
             layout: { height: 'auto' } },
         {
             name: 'document-list',
-            options: { title: 'Articole recente', order: '_createdAt desc', types: ['post'] },
+            options: { title: 'Articole recente', order: '_createdAt desc', types: ['post'], apiVersion: '2021-06-07' },
             layout: { width: 'medium' }
         }
     ]
