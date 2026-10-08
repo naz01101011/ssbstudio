@@ -13,10 +13,10 @@
     "test": "sanity check"
   },
   "dependencies": {
-    "@sanity/base": "^2.36.2",
+    "@sanity/base": "^2.36.6",
     "@sanity/cli": "^3.77.1",
     "@sanity/components": "^2.14.0",
-    "@sanity/core": "^2.36.2",
+    "@sanity/core": "^2.36.6",
     "@sanity/dashboard": "^2.36.0",
     "@sanity/default-layout": "^2.36.6",
     "@sanity/default-login": "^2.36.6",
