@@ -40,11 +40,6 @@ export default {
         },
         { 
             name: 'project-users',
-            layout: { height: 'auto' } },
-        {
-            name: 'document-list',
-            options: { title: 'Articole recente', order: '_createdAt desc', types: ['post'], apiVersion: '2021-06-07', showCreateButton: false },
-            layout: { width: 'medium' }
-        }
+            layout: { height: 'auto' } }
     ]
 }
